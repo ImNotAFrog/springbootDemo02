@@ -18,6 +18,7 @@ public class UserSerivceImpl implements UserService{
 	@Override
 	public List<SysUser> getAllUsers() {
 		// TODO Auto-generated method stub
+		System.out.println("1234");
 		return userMapper.selectAllUsers();
 	}
 	
